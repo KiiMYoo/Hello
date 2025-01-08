@@ -35,7 +35,7 @@ void AMyActor::move()
 {
 	FVector2D newstart(0.0f, 0.0f);
 	FVector2D beforemove(0.0f, 0.0f);
-	UE_LOG(LogTemp, Warning, TEXT("Start Location: (%d, %d)"), FMath::RoundToInt(newstart.X), FMath::RoundToInt(newstart.Y));
+	UE_LOG(LogTemp, Warning, TEXT("Start Location: (%d, %d)"), (int)newstart.X, (int)newstart.Y);
 
 	for (int i = 0; i < 10; i++)
 	{
@@ -43,7 +43,7 @@ void AMyActor::move()
 		newstart.X += step();
 		newstart.Y += step();
 
-		UE_LOG(LogTemp, Warning, TEXT("Current Location: (%d, %d)"), FMath::RoundToInt(newstart.X), FMath::RoundToInt(newstart.Y));
+		UE_LOG(LogTemp, Warning, TEXT("Current Location: (%d, %d)"), (int)newstart.X, (int)newstart.Y);
 		UE_LOG(LogTemp, Warning, TEXT("Moved Distance: %f)"), distance(beforemove, newstart));
 		createEvent();
 		
