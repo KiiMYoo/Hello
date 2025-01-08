@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Hello.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Hello.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HelloEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Hello">
+      <UniqueIdentifier>{78E8CAD7-16E1-34AB-BB7B-F14582C1F4DE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Hello\Hello.Build.cs">
+      <Filter>Source\Hello</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Hello\Hello.cpp">
+      <Filter>Source\Hello</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hello\Hello.h">
+      <Filter>Source\Hello</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hello\HelloCharacter.cpp">
+      <Filter>Source\Hello</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hello\HelloCharacter.h">
+      <Filter>Source\Hello</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hello\HelloGameMode.cpp">
+      <Filter>Source\Hello</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Hello\HelloGameMode.h">
+      <Filter>Source\Hello</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hello\Private">
+      <UniqueIdentifier>{FAE59095-E34B-37A4-89B2-BA5A250A7543}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hello\Private\MyActor.cpp">
+      <Filter>Source\Hello\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hello\Public">
+      <UniqueIdentifier>{7C10C041-B4BC-3195-BBCC-088C36C61E05}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hello\Public\MyActor.h">
+      <Filter>Source\Hello\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
